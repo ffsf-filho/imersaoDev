@@ -1,4 +1,4 @@
 # Oi Pessoal :)
-# imersaoDev
+# imersaoDev-Alura
 Projetos da Imersao Dev da Alura
 
