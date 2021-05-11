@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Train+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,600&family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="../styles/mentalista.css">
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <h1 class="page-title">Mentalista</h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="Logo da Alura" >
+      <label id="LabelResposta"></label>
+      <form id="form-play" method="get">
+        <input id="oculto" type="hidden" value="0">
+        <div class="containter-form">
+          <ul>
+            <li>Você tem 3 chances para acertar.</li>
+            <li>Ao final você poderá continuar tentando.</li>
+            <li class="abc">Digite um valor entre 0 e 20</li>
+          </ul>
+          <br/>
+          <div class="pontuacao">
+            <label id="labelPontuacao">Pontuação:</label>
+            <label id="labelPontuacao1">3000</label>
+          </div>
+          <div class="pontuacao">
+            <label id="labelChance">Chances:</label>
+            <label id="labelChance1">3</label>
+          </div>
+          <div class="jogo">
+            <label id="labelJogo" for="inputJogo">Digite seu palpite:</label>
+            <input id="inputJogo" type="text" maxlength="2">
+            <button id="buttonJogar" type="button" onclick="Jogar()">Jogar</button>
+          </div>
+          <div class="Obs">
+            <label id="labelObs" for="inputObs">Mensagem</label>
+            <textarea id="textObs" cols="30" rows="5"></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="../scripts/mentalista.js"></script>
+  </body>
+</html>

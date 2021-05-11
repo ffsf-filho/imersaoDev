@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 600px;
+  font-size:62.5%;
+  /*background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');*/
+  /*background-color: #000000;*/
+  /*background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;*/
+background-image: url('https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fHRoaW5raW5nJTIwcG9zZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+background-size: cover;
+background-position: center bottom;
+background-repeat: no-repeat;  
+}
+
+.container {
+text-align: center;
+padding: 20px;
+height: 100vh;
+}
+
+.page-title {
+/*font-family: 'Train One', cursive;*/
+font-family: 'Press Start 2P', cursive;
+font-weight:bold;
+font-stretch: expanded;
+text-shadow: white 5px 5px;
+font-size:3em;
+color: #000000;
+margin: 0 0 5px;
+}
+
+.page-logo {
+width: 200px;
+}
+
+.alura-logo {
+width: 40px;
+position: absolute;
+top: 10px;
+right:10px;
+}
+
+#LabelResposta{
+position: absolute;
+color:white;
+font-size:16px;
+font-weight:bold;
+top: 242px;
+left: calc(50% - 72.5px);
+width: 145px;
+text-align:center;
+}
+
+@media (max-height: 500px) {
+body {
+  min-height:800px;
+}
+}
+
+.containter-form{
+display:flex;
+flex-flow:column nowrap;
+align-items:flex-start;
+padding:0em;
+/*width:45%;*/
+max-width:17em;
+min-width:17em;
+height:24em;
+color:white;
+margin-left:calc(10px + 10%);
+font-size:1.5em;
+font-family: 'Libre Franklin', sans-serif;
+border:1;
+border-style: double;
+border-color:white;
+border-radius:20px;
+background-color:black;
+opacity:0.5;
+}
+
+.containter-form li{
+margin:0;
+padding:0;
+}
+
+.containter-form li.abc{
+margin:0;
+padding:0;
+color:red;
+}
+
+.pontuacao, .jogo{
+display:flex;
+flex-flow: row nowrap;
+margin-left:0.5em;
+padding:0.5em;
+}
+
+.pontuacao #labelPontuacao1, #labelChance1 {
+z-index:-200;
+width:25%;
+margin-left:1em;
+color:red;
+font-weight:bold;
+}
+
+.jogo #inputJogo{
+width:15%;
+margin-left:0.5em;
+}
+
+.containter-form .Obs{
+display:flex;
+flex-flow:row wrap;
+padding:0.5em;
+
+}
+
+.obs, .inputObs{
+width:92%;
+height:5em;
+}
