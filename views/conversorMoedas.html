@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="../styles/conversorMoedas.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-cabecalho">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <div class="page-title">
+          <h1>Conversor de moedas</h1>
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+      </div>
+      <form name="conversorMoedas" method="get" action="">
+        <ul class="container-moeda">
+          <li>
+            <label id="labelValor" class="labelValor" form="inputValor">Digite o Valor:</label>
+            <input id="inputValor" class="inputValor" type="text" placeholder="Exemplo: 1.999.22" alt="Digite aqui o valor que será convertido" />
+          </li>
+          <li>
+            <label id="labelPaisOrigem" class="labelPaisOrigem" form="selectPaisOrigem">Desta Moeda:</label>
+            <select id="selectPaisOrigem" class="selectPaisOrigem">
+              <option value="dolar" selected="selected">U$ EUA - Dólar</option>
+              <option value="libra">&#163 Reino Unido - Libra</option>
+              <option value="real">R$ Brasil - Real</option>
+            </select>
+          </li>
+          <li>
+            <label id="labelPaisDestino" class="labelPaisDestino" form="selectPaisDestino">Para esta Moeda:</label>
+            <select id="selectPaisDestino" class="selectPaisDestino">
+              <option value="Dolar">U$ EUA - Dólar</option>
+              <option value="Libra">&#163 Reino Unido - Libra</option>
+              <option value="Real" selected="selected">R$ Brasil - Real</option>
+            </select>
+          </li>
+          <li>
+            <button id="BottonMoeda" type="button" onclick="ConverterMoeda()" class="cartao BottonMoeda">Converter Moeda</button>
+          </li>
+          <li>
+            <label id="labelREsultado" class="labelREsultado cartao">Resultado</label>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <script src="../scripts/conversorMoedas.js"></script>
+  </body>
+</html>

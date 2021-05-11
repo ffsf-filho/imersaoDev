@@ -1,0 +1,99 @@
+body {
+  margin:0 auto;
+  padding:0px;
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png');
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 20px;
+  height: 100vh;
+}
+
+.container-cabecalho{
+  display:flex;
+  flex-flow:row wrap;
+  align-items: space-between;
+  height:50px;
+}
+
+.page-logo {
+  order:-1;
+  width: 200px;
+}
+
+.page-title {
+  order:0;
+  flex-grow:2;
+  color: #ffffff;
+  text-align:center;
+  min-width:350px;
+}
+
+.page-title h1{
+  margin:0 0 2px;
+}
+
+.alura-logo {
+  order:2;
+  width: 40px;
+}
+.container-moeda{
+  display:flex;
+  flex-flow:row nowrap;
+  margin-left: calc(50% - 370px);
+  width:50%;
+  height:80px;
+}
+
+.container-moeda li{
+  align-items: space-between;
+  list-style-type:none;
+  padding:5px 10px 5px 10px;
+  margin:5px;
+  border:1px;
+  border-color:silver;
+  border-radius:5px;
+  background-color:#152238
+}
+
+.container-moeda > li > label{
+  flex:1 0 120px;
+  max-width:220px;
+  color:white;
+  margin-left:1%;
+}
+.container-moeda > li > #labelREsultado{
+  color:red;
+  align-self:baseline;
+}
+.container-moeda li button{
+  flex:1 0 120px;
+  max-width:150px;
+  color:white;
+  height:45px;
+  letter-spacing: 0.09em;
+  margin-top:5px;
+  align-self:baseline;
+  border:1px;
+  border-style:solid;
+  border-radius:10px;  
+  background-color:#0c1421;  
+}
+
+.container-moeda li input{
+  flex:1 0 150px;
+  max-width:170px;
+  height:30px;
+}
+
+.container-moeda li select{
+  flex:1 0 150px;
+  max-width:170px;
+  height:30px;
+}
