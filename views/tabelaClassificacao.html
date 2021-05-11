@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table de Classificação</title>
+    <link rel="stylesheet" href="../styles/tabelaClassificacao.css">
+  </head>
+  <body>
+    <h1>Tabela de classificação</h1>
+    <table style="width:50%; margin:0 auto;">
+      <thead>
+        <tr>
+          <th colspan="2">Jogador</th>
+          <th class="th">
+            <img src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-trophy-icon-png-image_4184666.jpg" width="30px" height="30pxS">
+          </th>
+          <th class="th">
+            <img src="https://image.shutterstock.com/image-vector/making-decisions-icon-indecision-questions-600w-1931850884.jpg" width="30px" height="30pxS">
+          </th>
+          <th class="th">
+            <img src="https://cdn0.iconfinder.com/data/icons/geek-4/24/Game_Over_sign_video_game-512.png" width="30px" height="30pxS">
+            </th>
+          <th class="th">
+            <img src="https://icon-library.com/images/score-icon-png/score-icon-png-11.jpg" width="30px" height="30pxS">
+          </th>
+          <th colspan="3">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+      </tbody>
+      <tfoot>
+        <button id="novoJogador" type="button" onclick="novoJogador()">
+          <img src="https://cdn.icon-icons.com/icons2/1380/PNG/512/emblemnew_93501.png" width="30px" height="30pxS">
+        </button>
+      </tfoot>
+    </table>
+    <div id="containerJogo" class="containerJogo">
+      <div id="containerJogador" class="containerJogador">
+        <div id="playrX" class="player">
+          <label id="labelX" class="labelPlayer">
+            <input id="inputX" name="jogador" type="radio" checked="checked">
+            Jogador
+            <div style="margin-left:5px;"><p id="X">X</p></div>
+          </label>
+        </div>
+        <div id="playrO" class="player">
+          <label id="labelO" class="labelPlayer">
+            <input id="inputO" name="jogador" type="radio">
+            Jogador
+            <div style="margin-left:5px;"><p id="O">O</p></div>
+          </label>
+        </div>
+      </div>
+      <div id="containerTabuleiro" class="containerTabuleiro">
+        <div id="a1" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="a2" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="a3" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="b1" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="b2" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="b3" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="c1" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="c2" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="c3" onclick="marcarJogada(this.id)" jogador="" class="square"></div>
+        <div id="d1" onclick="limparJogo()" class="square"></div>
+      </div>
+    </div>    
+    <script src="../scripts/tabelaClassificacao.js"></script>
+  </body>
+</html>
