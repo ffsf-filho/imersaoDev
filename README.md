@@ -1,53 +1,29 @@
-# Oi Pessoal :)
-# imersaoDev-Alura
-Projetos da Imersao Dev da Alura
-
 <h1 align="center">
-  <a href="https://ffsf-filho.github.io/squad12/">CamaraRoll</a>
+  <a href="https://ffsf-filho.github.io/imersaodev-alura/">Imersão Dev - Alura</a>
 </h1>
-<h2 align="center">Programa de Formação & Imersão Dev Alura</h2>
 
-<img src=".github/md/home.png" alt="Home">
+<img src=".github/md/certificard.png" alt="Home">
 
-Content
+Contém
 =================
-   * [About](#About)
-   * [Pit](#Pit)
-   * [Instructions](#Instructions)
+   * [Sobre](#Sobre)
    * [Downloading](#Downloading)
-   * [Technologies](#Technologies)
-   * [StartingTheApplication](#Starting)
+   * [Tecnologias](#Tecnologias)
+   * [Iniciando](#Iniciando)
+   * [Projetos](#Projetos)
 
-<div id="About">    
+<div id="Sobre">    
 
-## About
-### This is a project done by @ ffsf-filho, @gabrielasertori, @lucasnsouza, 
-### @marcelonader and @LuizGVM for the Dev Alura Training & Immersion Program, sponsored by (<strong><a href="https://www.fcamara.com.br/">FCamara</a></strong>)
-### The project is a repository of films and study videos
-
-</div>
-
-<div id="Pit">
-  
-## Pit
-  [![Pit Camara-Roll, a sua plataforma de estudo e lazer](https://img.youtube.com/vi/GmCgmKZdT6s/maxresdefault.jpg)](http://www.youtube.com/watch?v=GmCgmKZdT6s "Vídeo do Pit Camara-Roll")
-
-</div>
-
-<div id="Instructions">
-
-## Instructions
-### Video with instructions for use
-  [![Camara-Roll a sua plataforma de estudo e lazer](https://img.youtube.com/vi/K0rOZ-dQpc8/maxresdefault.jpg)](http://www.youtube.com/watch?v=K0rOZ-dQpc8 "Vídeo de instuções de uso do Camara-Roll")
-
+## Sobre
+### A __*imersão Devda Alura*__ aconteceu entre dias 22 de março e 02 de abril de 2021, foi direcionada para programadores iníciantes no mundo da programação, teve a coordenação geral do __*Paulo Siveira*__ CEO da Alura, sendo os projetos comandados pelos instrutores da Alura __*Rafaella Ballerini*__ e __*Guilherme Lima*__, com participação especial do __*Mario Souto*__ (DevSoutinho), sendo a versão original do código desenvolvida no <a href="https://codepen.io/FranciscoFSF/full/GRrWeRy">CODEPEN</a>.
 </div>
 
 <div id="Downloading">
 
 ## Downloading
-<strong><a href="https://github.com/ffsf-filho/squad12/archive/main.zip"></a>Download ZIP</strong>
+<strong><a href="https://github.com/ffsf-filho/imersaodev-alura/archive/main.zip">Download ZIP</a></strong>
 
-<strong>OR</strong>
+<strong>OU</strong>
 
 ```
 git clone  https://github.com/ffsf-filho/squad12
@@ -55,9 +31,9 @@ git clone  https://github.com/ffsf-filho/squad12
 
 </div>
 
-<div id="Technologies">
+<div id="Tecnologias">
 
-## Technologies
+## Tecnologias
 
   <code>
     <img  height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML">
@@ -68,85 +44,38 @@ git clone  https://github.com/ffsf-filho/squad12
   <code>
     <img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript">
   </code>
-  <code>
-    <img height="50" src="https://icon-library.com/images/jquery-icon-png/jquery-icon-png-18.jpg" alt="JQuery">
-  </code>
-  <code>
-    <img height="50" src="https://img.pngio.com/filebootstrap-logosvg-wikimedia-commons-bootstrap-png-480_480.png" alt="Bootstrap">
-    <imge>
-  </code>
 </div>
 
-<div id="Starting">
+<div id="Iniciando">
 
-## Starting
+## Iniciando
 ``` 
-
+ https://ffsf-filho.github.io/imersaodev-alura/
 ```
-OR
-``` 
 
-```
 </div>
 
-### Features
+<div id="Projetos">
 
-- [x] Homepage/Login
-- [x] Cadastro login
-- [x] Endpoint of outsystem Rest API
-- [x] Tela de vídeo para estudo
-- [x] Tela de cadastro de vídeos para estudo, por catégoria
-- [x] Tela de vídeo para lazer
-- [x] Tela de cadastro de vídeos para laser, por catégoria
+### Projetos
 
-### Autores
+- [x] Conversor de Moedas
+- [x] Calculadora
+- [x] Mentalistas
+- [x] AluraFlix Filmes
+- [x] AluraFlix Trailers
+- [x] Tabela de Classificação
+- [x] Super Trunfo
+
+</div>
+
+### Autor
 ---
-<table>
-  <tr>
-      <td>
-        <a href="https://github.com/ffsf-filho">
-          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70358338?v=4" width="100px;" alt="Francisco F S Filho">
-          <br />
-          <sub>
-            <b>Francisco F S Filho</b>
-          </sub>
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/gabrielasertori">
-          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64798344?v=4" width="100px;" alt="Gabriela Costa Sertori">
-          <br />
-          <sub>
-            <b>Gabriela Costa Sertori</b>
-          </sub>
-        </a>
-     </td>
-     <td>
-        <a href="https://github.com/lucasnsouza" target="_blank">
-          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/80481689?v=4" width="100px;" alt="Lucas Souza">
-          <br />
-          <sub>
-            <b>Lucas Souza</b>
-          </sub>
-        </a>
-     </td>
-     <td>
-        <a href="https://github.com/marcelonader" target="_blank">
-          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/80595683?v=4" width="100px;" alt="Marcelo Nader">
-          <br />
-          <sub>
-            <b>Marcelo Nader</b>
-          </sub>
-        </a>
-     </td>
-     <td>
-        <a href="https://github.com/LuizGVM" target="_blank">
-          <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/83261651?v=4" width="100px;" alt="Luiz G. V. M.">
-          <br />
-          <sub>
-            <b>Luiz G. V. M.</b>
-          </sub>
-        </a>
-     </td>
-  </tr>
-</table>
+<a href="https://github.com/ffsf-filho">
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70358338?v=4" width="100px;" alt="Francisco F S Filho">
+  <br />
+  <sub>
+    <b>Francisco F S Filho</b>
+  </sub>
+</a>
+
